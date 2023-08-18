@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  /* Change the default font-size to 10px */
+  /* Browser's default font-size is 16px */
+  /* So, 10px / 16px = 0.625 = 62.5% */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  background-color: hsl(204, 43%, 93%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 63.5rem;
+  height: 47.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 45fr 55fr;
+}
+
+.join {
+  grid-column: 1 / 3;
+  background-color: #fff;
+  padding: 4rem;
+  border-radius: 8px 8px 0 0;
+}
+
+.cta {
+  grid-column: 1 / 2;
+  background-color: hsl(179, 62%, 43%);
+  padding: 4rem;
+  border-radius: 0 0 0 8px;
+}
+
+.why-us {
+  grid-column: 2 / 3;
+  background-color: hsl(179, 50%, 48%);
+  padding: 4rem;
+  border-radius: 0 0 8px 0;
+}
+
+.heading-primary {
+  color: hsl(179, 62%, 43%);
+  font-size: 2.4rem;
+  letter-spacing: -0.3px;
+  margin-bottom: 2.4rem;
+}
+
+.heading-secondary {
+  font-size: 1.8rem;
+  letter-spacing: -0.22px;
+  margin-bottom: 1.8rem;
+}
+
+.hassle-free {
+  color: hsl(71, 73%, 54%);
+  margin-bottom: 1.1rem;
+}
+
+.join-description {
+  color: hsl(218, 22%, 67%);
+  font-size: 1.6rem;
+  letter-spacing: -0.2px;
+  line-height: 1.5;
+}
+
+.monthly-subscription {
+  color: #fff;
+}
+
+.price-per-month {
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+  margin-bottom: 0.4rem;
+}
+
+.price {
+  font-size: 3.2rem;
+  letter-spacing: -0.4px;
+  color: #fff;
+}
+
+.per-month {
+  color: hsl(179, 57%, 57%);
+}
+
+.full-access {
+  letter-spacing: -0.2px;
+  color: #fff;
+  margin-bottom: 2.6rem;
+}
+
+.btn:link,
+.btn:visited {
+  color: #fff;
+  background-color: hsl(71, 73%, 54%);
+  text-decoration: none;
+  display: block;
+  font-size: 1.6rem;
+  letter-spacing: -0.2px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
+  border-radius: 5px;
+  border: 3px solid hsl(71, 73%, 54%);
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #fff;
+  color: hsl(71, 73%, 54%);
+}
+
+.why-us {
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-size: 1.4rem;
+  letter-spacing: -0.17px;
+  margin-bottom: 0.3rem;
+}

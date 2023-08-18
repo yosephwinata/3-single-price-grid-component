@@ -1,0 +1,40 @@
+/**************************/
+/* BELOW 656px */
+/**************************/
+@media (max-width: 41em) {
+  html,
+  body {
+    height: auto;
+  }
+
+  .container {
+    display: block;
+    margin: 7.2rem 3.2rem 7.2rem 3.2rem;
+  }
+
+  .join {
+    padding: 2.8rem 2.4rem 2.4rem 2.4rem;
+  }
+
+  .cta {
+    border-radius: 0;
+    padding: 2.4rem;
+  }
+
+  .why-us {
+    border-radius: 0;
+    padding: 2.4rem;
+  }
+
+  .heading-primary {
+    font-size: 2rem;
+  }
+
+  .heading-secondary {
+    font-size: 1.5rem;
+  }
+
+  .join-description {
+    font-size: 1.4rem;
+  }
+}
